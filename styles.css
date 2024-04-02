@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #141414;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.profile{
+    background-color: #1F1F1F;
+    min-height: 68%;
+    width:290px;
+    border-radius: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around ;
+    
+}
+.content{
+    display:flex ;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 80%;
+    
+}
+
+.name{
+    
+    font-size: 18px;
+    font-family:"Inter";
+    margin: 5px;
+}
+.country{
+    font-family:"Inter";
+    font-size: 10px;
+    color: #C5EB37;
+}
+.links{
+    display: grid;
+    width: 85%;
+    margin-bottom: 35px;
+}
+button{
+    margin: 5px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: #333333;
+    font-family:"Inter";
+    font-size: 10px;
+}
+button:hover{
+    background-color: #2c2828;
+    color: antiquewhite;
+}
+
+img{
+    width:70px;
+    border-radius: 50%;
+}
+.description{
+    width: fit-content;
+    font-size: 11px;
+    font-family:"Inter";
+    color: rgb(182, 182, 182);
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
